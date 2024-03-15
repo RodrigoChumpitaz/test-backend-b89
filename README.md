@@ -19,15 +19,15 @@ Para instalar las dependencias del proyecto, sigue estos pasos:
 1. Asegúrate de tener Node.js y npm instalados en tu máquina.
 2. Clona el repositorio en tu máquina local.
 3. Navega al directorio del proyecto en tu terminal.
-4. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+4. Ejecuta el siguiente comando para instalar las dependencias del proyecto e iniciar los servicios de docker:
 
 -   npm install
 -   docker compose up -d
--   npm run start:dev
 
 ## Uso
 
 Una vez instaladas las dependencias, puedes iniciar la aplicación ejecutando:
+-  npm run start:dev
 
 Esto iniciará la aplicación en tu máquina local.
 
