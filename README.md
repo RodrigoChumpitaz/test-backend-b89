@@ -1,6 +1,6 @@
 # Descripción del Proyecto
 
-Este proyecto es parte de una prueba técnica hecha en NestJs, PostrgreSQL, TypeORM, Docker
+Este proyecto es parte de una prueba técnica hecha en NestJs, PostrgreSQL, TypeORM, Docker aplicando Principios SOLID y Arquitectura Hexagonal
 
 ## Características Clave
 
