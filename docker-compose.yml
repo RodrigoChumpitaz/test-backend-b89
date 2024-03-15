@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+    technical-test-b89-db:
+        image: postgres:16.2-alpine
+        container_name: technical-test-b89-db
+        shm_size: 128mb
+        restart: on-failure
+        environment:
+            POSTGRES_DB: technical-test-b89-db
+            POSTGRES_USER: user
+            POSTGRES_PASSWORD: postgres
+        ports:
+            - 5432:5432
+        networks:
+            - net-technical-test-b89
+        volumes:
+            - technical-test-b89-vol:/var/lib/postgresql
+networks:
+    net-technical-test-b89:
+        driver: bridge
+volumes:
+    technical-test-b89-vol:
